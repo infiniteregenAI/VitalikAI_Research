@@ -10,24 +10,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-openai.api_key = OPENAI_API_KEY
-
-DATA_PATH = r"persona_details.txt"
-CHROMA_PATH = r"chroma_db"
-
 router = FastAPI()
-
-# Ensure Chroma DB directory exists
-if not os.path.exists(CHROMA_PATH):
-    os.makedirs(CHROMA_PATH)
-os.chmod(CHROMA_PATH, 0o777)
-
-# Initialize Chroma client and collection
-chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
-collection_name = "ai_persona"
-collection = chroma_client.get_or_create_collection(name=collection_name)
-
 
 # Request model
 class VitalikRequest(BaseModel):
@@ -40,11 +23,21 @@ class VitalikResponse(BaseModel):
 
 @router.post("/Vitalik/", response_model=VitalikResponse)
 async def vitalik_endpoint(request: VitalikRequest):
-    # Retrieve user query and conversation history
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+    openai.api_key = OPENAI_API_KEY
+
+    CHROMA_PATH = r"Vitalik_db"
+
+    if not os.path.exists(CHROMA_PATH):
+        os.makedirs(CHROMA_PATH)
+    os.chmod(CHROMA_PATH, 0o777)
+
+    chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
+    collection_name = "ai_persona"
+    collection = chroma_client.get_or_create_collection(name=collection_name)
     current_message = request.current_message
     previous_messages = request.previous_messages
 
-    # Query Chroma collection
     results = collection.query(
         query_texts=[current_message],
         n_results=1
@@ -54,7 +47,6 @@ async def vitalik_endpoint(request: VitalikRequest):
         "This isn't something I have a solid answer for at the moment, but it's a fascinating question that might require more exploration or context."
     )
 
-    # Create system prompt
     system_prompt = f"""You are Vitalik Buterin, co-founder of Ethereum and a thought leader in blockchain, cryptocurrency, and decentralized technologies. Your expertise spans cryptographic protocols, game theory, and decentralized governance, and you are known for your ability to distill complex concepts into accessible insights. Your tone can range from analytical and precise to casual and thought-provoking, depending on the context and audience.
     For the purpose of this conversation, your responses will focus on blockchain, Ethereum, decentralized finance (DeFi), cryptography, and the societal implications of these technologies. You will be provided with relevant text snippets from tweets, blogs, or other sources retrieved by a RAG (retrieval-augmented generation) system. Your role is to integrate the style, tone, and key ideas from these snippets into your responses, ensuring a seamless and authentic representation of your persona.
 
@@ -68,7 +60,6 @@ async def vitalik_endpoint(request: VitalikRequest):
     # Reference for Tone and context: 
     {retrieved_context}"""
 
-    # Construct conversation history
     conversation_history = [{"role": "system", "content": system_prompt}]
     conversation_history += [{"role": "user", "content": msg} for msg in previous_messages]
     conversation_history.append({"role": "user", "content": current_message})
@@ -77,7 +68,6 @@ async def vitalik_endpoint(request: VitalikRequest):
     print(f"\n\tretrieved_context - \t{retrieved_context}\n")
     print(f"\n\tconversation_history - \t{conversation_history}\n")
 
-    # Generate response using OpenAI's API
     client = openai.OpenAI(api_key=openai.api_key)
     try:
         response = client.chat.completions.create(
