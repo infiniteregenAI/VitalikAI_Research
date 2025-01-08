@@ -81,7 +81,7 @@ async def vitalik_endpoint(request: VitalikRequest):
     client = openai.OpenAI(api_key=openai.api_key)
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=conversation_history,
         )
         ai_response = response.choices[0].message.content

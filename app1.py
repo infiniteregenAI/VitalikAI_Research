@@ -74,7 +74,7 @@ async def event_generator(request: VitalikRequest):
 
         # OpenAI API call to generate response in streaming mode
         async for chunk in openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=conversation_history,
             stream=True
         ):
