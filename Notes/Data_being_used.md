@@ -1,12 +1,19 @@
 # SOURCE:
+
 ## Tweets from Vitalik's twitter:
 - https://x.com/vitalikbuterin
+
 ## Vitalik's Research Papers:
 - https://scholar.google.co.kr/citations?user=DLP9gTAAAAAJ&hl=en
+
 ## YouTube videos of Vitalik's Speeches:
 - https://www.youtube.com/watch?v=l9dpjN3Mwps
 - https://www.youtube.com/watch?v=TDGq4aeevgY
 - https://www.youtube.com/watch?v=JpOSqLjYb0o&t=523s
+- https://www.youtube.com/live/kGjFTzRTH3Q?si=9hHH3poZ07BduEoJ
+- https://www.youtube.com/live/oLsb7clrXMQ?si=VBwkvqCa9W_PNqVr
+- https://youtu.be/pB-_-WgDgCU?si=s_PqW6f34xUYyikc
+
 ## Vitalik's Blogs:
 - https://vitalik.eth.limo/general/2025/01/05/dacc2.html
 - https://vitalik.eth.limo/general/2024/12/03/wallets.html
