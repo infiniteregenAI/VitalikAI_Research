@@ -1,0 +1,291 @@
+# Tweets of `Vitalik Buterin`:
+  * Tweet:
+    Thanks for the warm welcome to the family and your work for wild animals!
+
+    I'm happy to be adoptive father to Moo Deng as she grows up over the next 2y and support her with my 10M THB donation, maybe more as I set aside 88 ETH for🦛+ frens. May they live long and prosper🖖🏻
+
+  * Tweet:
+    Deep funding combines two ideas:
+
+    1. Value as a graph: instead of asking "how much did X contribute to humanity?", ask "how much of the credit for Y belongs to X?"
+    2. Distilled human judgement: an open market of AIs fills in all the weights, human jury randomly spot-checks them
+
+    https://x.com/TheDevanshMehta/status/1867600164502089925
+
+    (1) has been a growing paradigm recently, for good reason. Contribution is hard to measure in the abstract: if you ask people how much they would pay to save N birds, they answer $80 for N=2000 and N=200000. "Local" questions like "is A or B more valuable to C?" are much more tractable.
+
+    (2) is based on ideas in my info finance post: https://vitalik.eth.limo/general/2024/11/09/infofinance.html#info-finance-for-distilled-human-judgement . Anyone can use any methods (eg. AI) to suggest weights for *all* edges, a human jury does detailed analysis on a random subset. The submissions that are most compatible with the jury answers decide the final output.
+
+  * Tweet:
+    ARS/USD is at exactly the same level as it was one year ago.
+
+    Quite an impressive turnaround for a currency that was previously on a seemingly unstoppable road to hyperinflation.
+
+    Inflation rates have also been decreasing quickly in recent months.
+
+  * Tweet:
+    What I would love to see in a wallet:
+
+  * Tweet:
+    One part of L2 scaling is Ethereum increasing its blob capacity. The other part is rollups becoming more data-efficient. Good to see 
+    @Starknet
+    rising to the challenge.
+
+    Would love to see more EVM rollups increasing data efficiency too (see https://vitalik.eth.limo/general/2024/10/17/futures2.html#3 )
+
+  * Tweet:
+    A series of threads by 
+    @evan_van_ness
+    summarizing the posts I wrote on the future of ethereum tech
+
+  * Tweet:
+    Argot, a collective of developers who have been working on important Ethereum dev tools we know and love for many years, is in the process of becoming an independent org.
+
+  * Tweet:
+    Possible futures of the Ethereum protocol, part 6: The Splurge
+
+  * Tweet:
+    Anyone has the right to step up and be part of the solution to growing the Ethereum community, anywhere in the world. This group sets a great example. I recommend people read their self-intro (through AI translator if needed).
+
+  * Tweet:
+    Possible futures of the Ethereum protocol, part 5: the Purge
+    
+  * Tweet:
+    An important step.
+    Some important next steps:
+      * Helios (or alternatives) being integrated into user wallets, on mobile and desktop
+      * L2 configs moving onchain (first step: https://github.com/ethereum/ERCs/pull/669 )
+      * L2 configs including specification of state proof verification rules (a possible starting point: https://eips.ethereum.org/EIPS/eip-3668 )
+    Once those three are done, we get universal L1 and L2 light client verification!
+
+  * Tweet:
+    Possible futures of the Ethereum protocol, part 4: The Verge
+
+  * Tweet:
+    Possible futures of the Ethereum protocol, part 3: The Scourge
+    https://vitalik.eth.limo/general/2024/10/20/futures3.html
+    (I tried my best to be fair to all sides of the debates here!)
+
+  * Tweet:
+    Possible futures for the Ethereum protocol, part 2: The Surge
+
+  * Tweet:
+    Possible futures of the Ethereum protocol, part 1: the Merge
+
+  * Tweet:
+    I appreciate all the memecoins that donate portions of their supply directly to charity.
+
+    (eg. I saw ebull sent a bunch to various groups last month)
+
+    Anything that gets sent to me gets donated to charity too (thanks moodeng! The 10B from today is going to anti-airborne-disease tech), though I truly prefer if you guys send to charity directly, maybe even make a DAO and get your community directly engaged in the decisions and process.
+
+    I've said before that I think the best thing for memecoins is if they can be maximally positive-sum for the world, so it's great to see moments when that actually happens!
+
+  * Tweet:
+    Seen on 
+    @Optimism
+    github:
+
+    "Also introducing ICrosschainERC20 interface... to be cross-chain neutral and extensible to other L2s"
+
+    I think people are sleeping on just how much Ethereum infrastructure players really *are* willing to cooperate and build a unified Ethereum ecosystem
+
+  * Tweet:
+    Making Ethereum alignment legible
+
+  * Tweet:
+    This is amazing to see. Improving worldwide access to basic payments/finance has always been a key way that ethereum can be good for the world, and it's great to see 
+    @Celo
+    getting traction.
+
+    See also their recent posts:
+
+    * @Celo
+    becoming an Ethereum L2: https://docs.celo.org/cel2
+    * Ethereum cultural alignment: https://app.t2.world/article/cm1eqxyh8151217321mcesuw528v
+
+  * Tweet:
+    Some thoughts on solo staking, what realistic value solo (+ small-business and community) stakers could provide to the network, and what changes L1 can make to better support solo stakers.
+
+  * Tweet:
+    I take this seriously. Starting next year, I plan to only publicly mention (in blogs, talks, etc) L2s that are stage 1+, with *maybe a short grace period* for new genuinely interesting projects.
+
+    It doesn't matter if I invested, or if you're my friend; stage 1 or bust.
+
+    Multiple ZK-rollup teams have told me they're on track to be stage 1 by year end. I'm excited to see that happen!
+
+    Of course we should not throw away training wheels become we're actually confident that the proof systems are secure; that would be irresponsible. But stage 1 (75% threshold on council to override the proof system, 26%+ of council must be outside the rollup team) is a very reasonable moderate milestone. The multisigs I'm in have not had a single liveness failure in years, let alone 26%.
+
+    The era of rollups being glorified multisigs is coming to an end. The era of cryptographic trust is upon us.
+
+  * Tweet:
+    BTW the above also applies to L2 tokens or other project tokens I hold (incl not-yet-liquid): all proceeds will be donated, again either to support public goods within the ethereum ecosystem or broader charity (eg. biomedical R&D).
+
+    I also do not intend to invest into L2s or other token projects in the foreseeable future. My goal with giving projects money is to support things that I think are valuable, especially in cases where other parts of the ecosystem might undervalue them. Going forward, I plan to just do this with donations.
+
+  * Tweet:
+    This is a good post to poke through if you want more details on "the kinds of things that EF spends money on" (at least as far as grants go; internal teams obviously look different)
+
+    $8.4m allocated to grants in Q2
+
+  * Tweet:
+    Airdrops are a fascinating initial use case for ZK / blockchain-based identity / credential / attestation frameworks. The goals of an airdrop are:
+
+    (i) distribute to community members [and not randos who will all immediately sell]
+    (ii) reward contributions to the project
+    (iii) be reasonably egalitarian [but some disparity is ok]
+    (iv) resist extractive/adversarial farming
+
+    These are exactly the properties that identity / credential / attestation frameworks (eg. see ideas in https://vitalik.eth.limo/general/2024/08/21/plurality.html#8_1 ) are trying to achieve. Hence, for anyone building such frameworks, it makes perfect sense to use token issuance as an initial use case to beta-test and refine their work in an adversarial environment.
+
+  * Tweet:
+    One related point is that giving tokens away for free is not the only "form factor" that makes sense for this: you can also do discounted sales.
+
+    I talk about reasons why to do this here:
+
+    https://vitalik.eth.limo/general/2021/08/22/prices.html
+
+    Depending on the degree of membership/contribution you can prove, you can buy a corresponding number of tokens at a reduced price. This helps make the supply more distributed and rewards non-financial contributors, while still ensuring buyers have "skin in the game".
+
+    Any technique that works for airdrops also works for discounts. A related concept (CT 
+    @pujaohlhaver
+    
+    @IdenaNetwork
+    ) is to subsidize savings rates for smaller accounts as an alternative to UBI. Singapore's CPF already does something similar.
+
+  * Tweet:
+    Updates from 
+    @0xstark
+    on EF spending.
+
+    The key info is in this chart.
+
+    The "new institutions" category basically means 
+    @NomicFoundation
+    , 
+    @TheDRC_
+    , 
+    @l2beat
+    , 
+    @0xPARC
+    etc - no World Economic Forum insect protein research here!
+
+    More info has been and will be published; see thread.
+
+  * Tweet:
+    No execution client has more than 2/3 market share, according to https://supermajority.info
+
+    Great news for the robustness of the Ethereum L1.
+
+  * Tweet:
+    See also: great talk by 
+    @peter_szilagyi
+    on making it easier for each node to verify each block with multiple clients in parallel.
+
+  * Tweet:
+    I have been told that I need to "do less philosophizing and do more ethereum bullposting". Hence, here is an ethereum bullpost, courtesy of stable diffusion 3 inpainting + gimp.
+
+  * Tweet:
+    Defeated the 11700-word blog post on all three engagement metrics in three minutes.
+
+  * Tweet:
+    Plurality philosophy in an incredibly oversized nutshell
+
+  * Tweet:
+    Glad to see 
+    @zkemail
+    starting to make major steps toward real world adoption. It feels like the different pieces of social recovery are coming together!
+
+  * Tweet:
+    Added more M31 and binary field support to zorch:
+
+    https://github.com/vbuterin/zorch
+
+    Now you can write reasonably-performant STARK proving code that runs on your GPU, in python! Below is the full arithmetization of poseidon.
+
+    I welcome others taking this and running with it.
+
+  * Tweet:
+    Summary of Ethereum block-building research as of 2024-08-07:
+
+    * Everyone agrees that having multiple actors contribute txs that must be included in the block is a good idea
+    * Open debate on whether avoiding a "last mover" is possible
+
+    It's good to see the progress! It feels like the block construction topic is nearing a light at the end of the tunnel.
+
+  * Tweet:
+    I think people will be surprised by how quickly "cross-L2 interoperability problems" stop being problems and we get a smooth user experience across the entire ethereum-verse (incl L1, rollups, validiums, even sidechains). I'm seeing lots of energy and will to make this happen.
+
+  * Tweet:
+    Review: museums of the future, Dubai and Tokyo
+
+  * Tweet:
+    Happy 9th birthday, Ethereum!
+
+    Looking forward to seeing what the next decade brings.
+
+  * Tweet:
+    One concept I introduced in my recent review of the bitcoin block size war books ( https://vitalik.eth.limo/general/2024/05/31/blocksize.html ) is the one-sided competence trap.
+
+    This is a pattern that I've seen appear in many different types of contexts. It would be good to better understand ways to escape it.
+
+  * Tweet:
+    The last week of Ethereum state tree research be like...
+
+  * Tweet:
+    Exploring circle STARKs
+
+    https://vitalik.eth.limo/general/2024/07/23/circlestarks.html
+
+    Thank you to 
+    @StarkwareLtd
+    friends for the kind support in understanding these concepts!
+
+    See also my implementation at github.
+
+  * Tweet:
+    Against choosing your political allegiances based on who is "pro-crypto"
+
+  * Tweet:
+    Me, early 2024: hmm I haven't been cancelled for a while, maybe I should say something spicy and do another round. What should it be? Genetic engineering? Geopolitics? Stick up for illegal immigrants?
+
+    Me, Jul 2024: cancelled for... trying not to get airborne diseases 😐
+
+  * Tweet:
+    Plane be like...
+
+    Me be like...
+
+    We really need to clean up our indoor air, but until then thank you 
+    @zhouliang_mask
+    !
+
+  * Tweet:
+    Left: depositing to 
+    @Polymarket
+    today
+    Right: depositing to 
+    @Polymarket
+    as it should be
+
+    Let's work together on rolling out ERC-3770 and ERC-7683 today!
+
+  * Tweet:
+    We really need much more open source in the auto industry.  Really sad that "if the manufacturer disappears, the car is useless now" has seemingly so quickly become a default.
+
+  * Tweet:
+    Recent news of EU chat control proposals failing feels like a significant win. Really grateful to see so many people working hard to make this outcome happen, and congratulations to Europeans.
+
+  * Tweet:
+    (And yes I know it's not "dead". Realistically, it never will be. We're entering very challenging territory for preserving privacy, especially as things like mind reading become possible over the next century. No solution other than "eternal vigilance". Keep up the good fight!)
+
+  * Tweet:
+    Prediction markets and Community Notes are becoming the two flagship social epistemic technologies of the 2020s.
+
+    Both truth-seeking and democratic, built around open public participation rather than pre-selected elites.
+
+    I want to see many more things like this.
+
+  * Tweet:
+    Epochs and slots all the way down: ways to give Ethereum users faster transaction confirmation times
+
