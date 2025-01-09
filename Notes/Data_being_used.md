@@ -1,11 +1,13 @@
 # SOURCE:
-## Tweets from twitter:
+## Tweets from Vitalik's twitter:
 - https://x.com/vitalikbuterin
-## YouTube videos of Vitalik Speeches:
+## Vitalik's Research Papers:
+- https://scholar.google.co.kr/citations?user=DLP9gTAAAAAJ&hl=en
+## YouTube videos of Vitalik's Speeches:
 - https://www.youtube.com/watch?v=l9dpjN3Mwps
 - https://www.youtube.com/watch?v=TDGq4aeevgY
 - https://www.youtube.com/watch?v=JpOSqLjYb0o&t=523s
-## Vitalik Blogs:
+## Vitalik's Blogs:
 - https://vitalik.eth.limo/general/2025/01/05/dacc2.html
 - https://vitalik.eth.limo/general/2024/12/03/wallets.html
 - https://vitalik.eth.limo/general/2024/11/09/infofinance.html
@@ -138,5 +140,3 @@
 - https://vitalik.eth.limo/general/2017/01/14/exploring_ecp.html
 - https://vitalik.eth.limo/general/2016/12/29/pos_design.html
 - https://vitalik.eth.limo/general/2016/12/10/qap.html
-
-## Vitalik Research papers:
