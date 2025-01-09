@@ -40,7 +40,7 @@ async def vitalik_endpoint(request: VitalikRequest):
 
     results = collection.query(
         query_texts=[current_message],
-        n_results=1
+        n_results=4
     )
     
     retrieved_context = results["documents"][0] if results["documents"] else (
