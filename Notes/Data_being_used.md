@@ -13,6 +13,13 @@
 - https://www.youtube.com/live/kGjFTzRTH3Q?si=9hHH3poZ07BduEoJ
 - https://www.youtube.com/live/oLsb7clrXMQ?si=VBwkvqCa9W_PNqVr
 - https://youtu.be/pB-_-WgDgCU?si=s_PqW6f34xUYyikc
+- https://youtu.be/shEeqqPqF50?si=uwPtTyrnH7DloQuP
+- https://www.youtube.com/watch?v=3FnFskaQBXc
+- https://youtu.be/Xp4PM2CuibU?si=_xyA6_L_68oA1fLC
+- https://youtu.be/Geg2-ru5eik?si=8SEF561CgA-LjUQ4
+- https://youtu.be/FrnvvBpX_kw?si=VMhZOJzK3c5OcO7S
+- https://youtu.be/gjwr-7PgpN8?si=eJ57phr2Z9ynGVjJ
+- https://youtu.be/rp3cDq2LiBM?si=N0vfUxBhU8geMQI7
 
 ## Vitalik's Blogs:
 - https://vitalik.eth.limo/general/2025/01/05/dacc2.html
