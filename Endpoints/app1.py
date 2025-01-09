@@ -33,7 +33,7 @@ async def get_vitalik_reply(input_data: MessageInput):
     # Query the collection for relevant context
     results = collection.query(
         query_texts=[input_data.current_message],
-        n_results=3
+        n_results=4
     )
 
     # Retrieve context or provide a fallback
